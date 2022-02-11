@@ -1,0 +1,84 @@
+#c1{
+  height: 700px;
+  width: 700px;
+  border: 3px solid black;
+  background-image: url(https://w7.pngwing.com/pngs/611/327/png-transparent-purple-gradient-watercolor-background-purple-gradual-change-blue.png);
+}
+
+.transparent-text {
+  font-family: 'rgba(88,88,88, 0.7)', sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  background: #171fb6;
+  display: table;
+  margin: 20px auto;
+  color: red;
+  border-radius: 5px;
+  mix-blend-mode: multiply;
+  padding: 5px 10px;
+}
+
+
+
+body{
+  background: #cbc7c4;
+  background-image: -webkit-radial-gradient(cover, #FFF,#D1D1D1	);
+  background-image: -moz-radial-gradient(cover, #e8eaec, #a4a8ae);
+  background-image: -o-radial-gradient(cover, #e8eaec, #a4a8ae);
+  background-image: radial-gradient(cover, #e8eaec, #a4a8ae)
+}
+
+html{
+  min-height:100%;
+}
+
+.Navigation{
+	height: 50px;
+    padding: 0;
+	margin: 0;
+	position: absolute;
+}
+
+.Navigation li 	{
+	height: auto;
+	width: 150px;
+	float: left;
+	text-align: center;
+	list-style: none;
+	font:12px "Bonveno", "Century Gothic";
+	padding: 0;
+	margin: 0;
+	background-color: rgb(105, 135, 218);
+	border: 1px solid rgb(17, 2, 2);
+	box-shadow: 0 1px 0 rgba(255,255,255, .9) inset, 0 1px 3px rgba(0,0,0, .1);
+	border-radius: 3px;
+  margin-left:10px;
+}
+
+.Navigation a{							
+	padding:13px;
+	text-decoration: none; 
+	color:rgb(20, 2, 2);
+	text-shadow: 0 1px rgb(20, 1, 1);
+	display: block;
+}
+.Navigation li ul{
+	display: none;
+	height: auto;									
+	margin-left: -11px;
+	padding: 0;		
+}				
+
+.Navigation li:hover ul{
+	display: block;
+}
+
+.navbar li ul li {
+	background-color:rgb(132, 194, 50);
+  	border: 1px solid #ccc;
+} 
+
+.Navigation li:hover, a:hover {
+	 background: #e8e8e8;
+} 
+
